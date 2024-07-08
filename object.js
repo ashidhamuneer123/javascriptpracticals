@@ -185,3 +185,21 @@ players.forEach((player)=>{
  const newPlayer=players.find((player)=>player.name === "Arjun");
  console.log(newPlayer);
 
+ //checking object is empty or not
+
+const guess={
+    name:"muniii"
+}
+
+const empty={}
+
+ function isEmpty(obj){
+    if(Object.keys(obj).length===0){
+        console.log(`Empty Object`);
+    }else{
+        console.log(`object is not empty`);
+    }
+ }
+ isEmpty(guess);
+ isEmpty(empty)
+

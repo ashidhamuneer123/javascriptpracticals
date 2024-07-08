@@ -5,6 +5,8 @@ words.forEach(word=>{
         aWords.push(word)
     }
 })
+
+let cWords=words.filter((word)=>word.startsWith('c'))
 //console.log(aWords);
 
 
@@ -22,5 +24,6 @@ console.log(myName.includes('neer'));
 
 const str="hello th is is ash idh a"
 console.log(str.replaceAll(' ',''));
+console.log(cWords);
 
 

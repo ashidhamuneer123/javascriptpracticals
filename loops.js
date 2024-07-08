@@ -27,11 +27,18 @@ for(let i=0;i<a.length;i++){
 //for..in loop=> iterates over object properties
 
 let car ={
-    name:tiida,
+    name:"tiida",
     model:2013,
-    place:dubai
+    place:"dubai"
 }
 
 for(let property in car){
-    console.log();
+    console.log(`properties:${property.charAt(1)}`);
+}
+
+
+//for ..of loop=>iterates over array
+const array=[1,2,3,4,5]
+for(const num of array){
+  console.log(`number:${num}`);
 }
